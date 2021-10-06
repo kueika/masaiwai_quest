@@ -1,0 +1,12 @@
+{
+    "name": "masaiwai_quest",
+    "description": "先生の頼まれごと関係",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "iwi.json",
+            "credentialsFile": "iwi_cred.json"
+        }
+    }
+}
