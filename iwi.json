@@ -252,11 +252,11 @@
         "type": "http in",
         "z": "e2bfbda763e292f1",
         "name": "",
-        "url": "/test",
+        "url": "/test0222222",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 250,
+        "x": 280,
         "y": 360,
         "wires": [
             [
