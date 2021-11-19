@@ -246,5 +246,52 @@
         "x": 600,
         "y": 300,
         "wires": []
+    },
+    {
+        "id": "a90c06157989bde8",
+        "type": "http in",
+        "z": "e2bfbda763e292f1",
+        "name": "",
+        "url": "/test",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 250,
+        "y": 360,
+        "wires": [
+            [
+                "c715dd14479f5036"
+            ]
+        ]
+    },
+    {
+        "id": "c715dd14479f5036",
+        "type": "template",
+        "z": "e2bfbda763e292f1",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "This is the payload: {{payload}} !",
+        "output": "str",
+        "x": 430,
+        "y": 400,
+        "wires": [
+            [
+                "0a77df4b3c1b8555"
+            ]
+        ]
+    },
+    {
+        "id": "0a77df4b3c1b8555",
+        "type": "http response",
+        "z": "e2bfbda763e292f1",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 660,
+        "y": 440,
+        "wires": []
     }
 ]
